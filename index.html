@@ -1,38 +1,47 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <!-- HEAD contains information about the page -->
-        <meta charset="UTF-8">
-        <title>Soccer Match Predictor</title> <!-- THE TITLE sets the browser title  -->
-    </head>
-    <body>
-    <h1>Soccer Match Predictor</h1>
-    <p>Select two teams to predict the match outcome.</p>
-    <p>Barcelona Vs Real Madrid</p>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <!-- HEAD contains information about the page -->
+            <meta charset="UTF-8">
+            <title>Soccer Match Predictor</title> <!-- THE TITLE sets the browser title  -->
+        </head>
+        <body>
+        <h1>Soccer Match Predictor</h1>
+        <p>Select two teams to predict the match outcome.</p>
+        <p>Barcelona Vs Real Madrid</p>
 
-    
-    <!-- Add your matchup paragraph here -->
-        <h2>Choose Your Teams</h2>
-        <p> 
+        
+        <!-- Add your matchup paragraph here -->
+            <h2>Choose Your Teams</h2>
+            <p> 
 
-            <label for="home-team">Home team:</label>
-            <select id="home-team">
-            <option value="barcelona">Barcelona</option>
-            <option value="real-madrid">Real Madrid</option>
-            <option value="arsenal">Arsenal</option>
-            </select>
-
-
-            <label for="away-team">Away team:</label>
-            <select id="away-team">
-            <option value="barcelona">Barcelona</option>
-            <option value="real-madrid">Real Madrid</option>
-            <option value="arsenal">Arsenal</option>
-            </select>
+                <label for="home-team">Home team:</label>
+                <select id="home-team">
+                <option value="barcelona">Barcelona</option>
+                <option value="real-madrid">Real Madrid</option>
+                <option value="arsenal">Arsenal</option>
+                </select>
 
 
+                <label for="away-team">Away team:</label>
+                <select id="away-team">
+                <option value="barcelona">Barcelona</option>
+                <option value="real-madrid">Real Madrid</option>
+                <option value="arsenal">Arsenal</option>
+                </select>
 
 
-        </p>
-     </body> 
-    </html>
+
+
+            </p>
+
+
+
+
+            <button id="predict-button" type="button">Predict Match</button>
+
+            <p id="prediction-result">Your prediction will appear here.</p>
+
+            <script src="script.js"></script>
+        </body> 
+        </html>
